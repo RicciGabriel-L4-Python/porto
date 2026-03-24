@@ -352,3 +352,53 @@ font-size:14px;
 html {
   scroll-behavior: smooth;
 }
+
+/* INFO & SKILLS SECTION */
+
+.skills-section{
+width: 80%;
+margin: 120px auto;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.skills-title{
+text-align:center;
+font-size:28px;
+letter-spacing:4px;
+margin-bottom:50px;
+}
+
+.skills-table{
+width:100%;
+}
+
+.skill-row{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+padding:15px 0;
+border-top:1px solid rgba(255,255,255,0.2);
+font-size:16px;
+}
+
+.skill-type{
+color:#aaa;
+}
+
+.skill-project{
+text-align:center;
+}
+
+.skill-tag{
+text-align:right;
+color:#ccc;
+}
+
+.skill-desc{
+margin:10px 0 35px 0;
+color:#d0d0d0;
+font-size:15px;
+line-height:1.6;
+border-bottom:1px solid rgba(255,255,255,0.1);
+padding-bottom:25px;
+}
